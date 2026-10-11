@@ -1,0 +1,5 @@
+interface:
+  display_name: "自定义桌宠制作"
+  short_description: "用喜欢的图片制作 Windows 桌宠，支持自然动画、音乐联动、拖动缩放与登录自启"
+  brand_color: "#E9A9C2"
+  default_prompt: "请使用 $desktop-pet-creator，根据我上传的图片制作一个可互动的 Windows 桌宠。"

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "my-pet",
+  "name": "我的桌宠",
+  "behavior": {
+    "mode": "codex",
+    "process_names": ["Codex.exe"],
+    "exe_contains": ["\\OpenAI\\Codex\\", "\\OpenAI.Codex_", "\\OpenAI.Codex\\"]
+  },
+  "music": {
+    "enabled": true,
+    "media_keywords": ["cloudmusic", "netease", "网易云音乐"],
+    "process_names": ["cloudmusic.exe", "neteasecloudmusic.exe"],
+    "peak_threshold": 0.002,
+    "silence_hold": 1.25
+  },
+  "animation": {
+    "idle": "idle.png",
+    "playing": "playing.png",
+    "frames": 8,
+    "fps": 12,
+    "background": "",
+    "foreground": ""
+  },
+  "window": {"default_size": 310, "min_size": 180, "max_size": 620, "step": 40}
+}

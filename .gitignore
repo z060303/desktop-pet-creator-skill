@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+runtime/
+*.pid
+pet-settings.json
+control-state.json
+pet-error.log
+*.tmp
+.env
+work/
+outputs/
+*.zip
